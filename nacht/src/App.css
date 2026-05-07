@@ -23,11 +23,11 @@ nav {
   background: url("./assets/NachtDerUntotenTitle.png");
   background-color: rgba(255, 255, 255,0.2);
   background-blend-mode: lighten;
-  @apply  bg-no-repeat bg-cover bg-center flex flex-row justify-between items-center p-3 backdrop-blur-2xl
+  @apply  bg-no-repeat bg-cover bg-center flex flex-row justify-between items-center px-5 backdrop-blur-2xl w-screen sticky top-0
 }
 
 nav h1 {
-  @apply text-slate-100 bg-black/50 py-5 px-5 rounded border-2 border-black shadow-xl 
+  @apply text-slate-100 bg-black/50 py-5 px-5 rounded-xl border-2 border-black shadow-xl
 }
 
 #linkLists {
@@ -36,4 +36,21 @@ nav h1 {
 
 #linkLists a {
   @apply backdrop-blur-lg rounded py-2 px-3 shadow text-orange-300 hover:translate-y-[-1] hover:translate-x-[1] hover:shadow-xl hover:bg-white/10
+}
+
+
+section {
+  @apply text-left max-w-3xl mx-auto
+}
+section h1 {
+  @apply text-3xl
+}
+section h2 {@apply text-2xl}
+
+section img {
+  @apply w-full max-h-[400px] object-cover
+}
+
+footer {
+  @apply bg-slate-200 p-3 text-slate-500 mt-5
 }
