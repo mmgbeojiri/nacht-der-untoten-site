@@ -23,7 +23,7 @@ nav {
   background: url("./assets/NachtDerUntotenTitle.png");
   background-color: rgba(255, 255, 255,0.2);
   background-blend-mode: lighten;
-  @apply  bg-no-repeat bg-cover bg-center flex flex-row justify-between items-center px-5 backdrop-blur-2xl w-screen sticky top-0
+  @apply  bg-no-repeat bg-cover bg-center flex flex-row justify-between items-center px-5 backdrop-blur-2xl w-screen sticky top-0 max-w-full
 }
 
 nav h1 {
@@ -31,14 +31,28 @@ nav h1 {
 }
 
 #linkLists {
-  @apply flex gap-1
+  @apply  hidden xl:flex gap-1
 }
 
 #linkLists a {
   @apply backdrop-blur-lg rounded py-2 px-3 shadow text-orange-300 hover:translate-y-[-1] hover:translate-x-[1] hover:shadow-xl hover:bg-white/10
 }
+#hamburger {
+  @apply block xl:hidden text-slate-100 bg-black/50 py-5 px-5 rounded-xl border-2 border-black shadow-xl hover:bg-black/70
+}
+#hiddenLinks {
+  @apply hidden gap-0 xl:!hidden sticky top-27 
+}
+.showLinks {
+  background: url("./assets/NachtDerUntotenTitle.png");
+  background-color: rgba(255, 255, 255,0.2);
+  background-blend-mode: lighten;
+  @apply !flex !flex-col bg-no-repeat bg-cover bg-center ; 
+}
 
-
+.showLinks a {
+  @apply backdrop-blur-lg rounded py-2 px-3 shadow text-orange-300 hover:translate-y-[-1] hover:translate-x-[1] hover:shadow-xl hover:bg-slate-200/30; 
+}
 section {
   @apply text-left max-w-3xl mx-auto
 }
@@ -74,3 +88,4 @@ footer {
 hr {
   @apply text-slate-300 my-2
 }
+
