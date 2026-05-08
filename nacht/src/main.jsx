@@ -9,6 +9,7 @@ import Footer from "./Footer.jsx"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import WorldAtWar from "./WorldAtWar.jsx"
 import BlackOps1 from './BlackOps1.jsx'
+import BlackOps2 from './BlackOps2.jsx'
 createRoot(document.getElementById('root')).render(
     <BrowserRouter >
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
     <Route path="/" element={<Home />} />
     <Route path="/WorldAtWar" element={<WorldAtWar />} />
     <Route path="/BlackOps1" element={<BlackOps1 />} />
+    <Route path="/BlackOps2" element={<BlackOps2 />} />
     <Route path="*" element={<h1>Place Not Implemented Yet</h1>} />
     </Routes>
     <Footer />
