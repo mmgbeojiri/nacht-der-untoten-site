@@ -54,3 +54,23 @@ section img {
 footer {
   @apply bg-slate-200 p-3 text-slate-500 mt-5
 }
+
+.gallery {
+  @apply border rounded p-3 flex flex-col gap-4 border-slate-300
+}
+
+.gallery img {
+  @apply w-[960px] h-[540px] object-contain bg-slate-800 rounded
+}
+
+.gallery .galleryButtons {
+  @apply flex justify-between w-full items-center
+}
+
+.gallery .galleryButtons button {
+  @apply text-orange-300 border p-3 px-5 rounded hover:bg-orange-50 hover:shadow
+}
+
+hr {
+  @apply text-slate-300 my-2
+}

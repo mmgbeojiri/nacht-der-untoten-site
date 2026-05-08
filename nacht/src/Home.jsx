@@ -6,7 +6,6 @@ export default function Home() {
     return (<section>
     <h1>You drove them deep into the heart of the Reich. You thought they were dead. You were wrong.</h1>
     <img src={NachtDerUntoten}/>
-    <hr/>
     <p>Nacht Der Untoten was the first map to ever be in Call Of Duty: Zombies starting out with World at War in 2008.</p>
     <p>The premise of the game was simple, survive the night in a bunker you defend.</p>
     <p>Nacht Der Untoten is known for being one of the hardest maps, due to no perks, no pack a punch, and no power.</p>
@@ -29,7 +28,7 @@ export default function Home() {
     <hr/>
     <h2>Development</h2>
     <img src={HardLanding} />
-    <hr/>
+    
     <p>Nacht Der Untoten was made from reused from the map "Airfield" in the WaW multiplayer, and can be seen again in the campaign mission "Hard Landing". </p>
     <p>Nacht Der Untoten was a part of four special maps the player got access to after finishing the campaign for World At War.</p>
     <p>These four maps were Nacht Der Untoten, Verruckt, Shi No Numa, and Der Riese.</p>
@@ -42,7 +41,7 @@ export default function Home() {
     <p>The only people who survived were four unnamed marines, who ran into the building to seek shelter.</p>
     <p>They now have to survive, "The Night Of The Undead."</p>
     <img src={NightOfDead} />
-    <hr/>
+   
     
     </section>)
 }
