@@ -27,7 +27,7 @@ nav {
 }
 
 nav h1 {
-  @apply text-slate-100 bg-black/50 py-5 px-5 rounded-xl border-2 border-black shadow-xl
+  @apply text-slate-100 bg-black/50 py-5 px-5 rounded-xl border-2 border-black shadow-xl 
 }
 
 #linkLists {
@@ -54,7 +54,7 @@ nav h1 {
   @apply backdrop-blur-lg rounded py-2 px-3 shadow text-orange-300 hover:translate-y-[-1] hover:translate-x-[1] hover:shadow-xl hover:bg-slate-200/30; 
 }
 section {
-  @apply text-left max-w-3xl mx-auto
+  @apply text-left max-w-4xl mx-auto p-4
 }
 section h1 {
   @apply text-3xl
