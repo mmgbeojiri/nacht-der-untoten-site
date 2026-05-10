@@ -13,7 +13,7 @@ import BlackOps2 from './BlackOps2.jsx'
 import BlackOps3 from './BlackOps3.jsx'
 import BlackOpsColdWar from './BlackOpsColdWar.jsx'
 createRoot(document.getElementById('root')).render(
-    <BrowserRouter >
+    <BrowserRouter basename='/nacht-der-untoten-site'>
   <StrictMode>
     <Header />
     <Navbar />
