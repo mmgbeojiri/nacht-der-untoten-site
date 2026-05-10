@@ -66,11 +66,11 @@ section img {
 }
 
 footer {
-  @apply bg-slate-200 p-3 text-slate-500 mt-5
+  @apply bg-slate-200 p-3 text-slate-500 mt-5 dark:bg-slate-900
 }
 
 .gallery {
-  @apply border rounded p-3 flex flex-col gap-4 border-slate-300
+  @apply border rounded p-3 flex flex-col gap-4 border-slate-300 dark:border-slate-700
 }
 
 .gallery img {
@@ -82,10 +82,10 @@ footer {
 }
 
 .gallery .galleryButtons button {
-  @apply text-orange-300 border p-3 px-5 rounded hover:bg-orange-50 hover:shadow
+  @apply text-orange-300 border p-3 px-5 rounded hover:bg-orange-50 hover:bg-orange-900 hover:shadow
 }
 
 hr {
-  @apply text-slate-300 my-2
+  @apply text-slate-300 my-2 dark:text-slate-700
 }
 
