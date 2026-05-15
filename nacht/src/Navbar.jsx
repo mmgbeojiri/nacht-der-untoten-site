@@ -12,7 +12,9 @@ export default function Navbar() {
     
     return (<>
         <nav>
-            <h1>NachtDerUntoten.com</h1>
+            <h1 onClick={
+        () => {document.documentElement.classList.toggle("dark"); }
+        }>NachtDerUntoten.com</h1>
             <div id="linkLists">
                {linkJSX}
             </div>
