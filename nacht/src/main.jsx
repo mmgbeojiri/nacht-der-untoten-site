@@ -12,6 +12,7 @@ import BlackOps1 from './BlackOps1.jsx'
 import BlackOps2 from './BlackOps2.jsx'
 import BlackOps3 from './BlackOps3.jsx'
 import BlackOpsColdWar from './BlackOpsColdWar.jsx'
+import Secret from './Secret.jsx'
 createRoot(document.getElementById('root')).render(
     <BrowserRouter basename='/nacht-der-untoten-site'>
   <StrictMode>
@@ -24,6 +25,7 @@ createRoot(document.getElementById('root')).render(
     <Route path="/BlackOps2" element={<BlackOps2 />} />
     <Route path="/BlackOps3" element={<BlackOps3 />}/>
     <Route path="/BlackOpsColdWar" element={<BlackOpsColdWar />} />
+    <Route path="/Secret" element={<Secret />} />
     <Route path="*" element={<h1>Place Not Implemented Yet</h1>} />
     </Routes>
     <Footer />

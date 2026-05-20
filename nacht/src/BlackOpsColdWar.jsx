@@ -4,6 +4,7 @@ import DieMaschine7 from './assets/BoCw/Die-Maschine-7.webp';
 import brianGlinesDieMaschine1 from './assets/BoCw/brian-glines-die-maschine-1.jpg';
 import dieMaschine from './assets/BoCw/die-maschine.webp';
 import images2 from './assets/BoCw/images (2).jpg';
+import { Link } from "react-router-dom"
 
 export default function BlackOpsColdWar() {
     
@@ -33,6 +34,9 @@ export default function BlackOpsColdWar() {
             <p>The building is old, rundown with cracks in the walls.</p>
             <p>Gobblegums have been removed but perks are still around, being dispered around the map and underground.</p>
             <p>The original plane crash site is there, and there is a small pond nearby.</p>
+            <hr/>
+            <h2>Secret</h2>
+            <p>So since you're all caught up on Nacht Der Untoten, <Link to="/secret">why not put yourself to the test?</Link></p>
         </section>
     )
 }

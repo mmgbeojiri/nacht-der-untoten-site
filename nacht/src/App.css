@@ -95,3 +95,21 @@ hr {
   @apply text-slate-300 my-2 dark:text-slate-700
 }
 
+iframe {
+  aspect-ratio: 16 / 9;
+  @apply max-w-4xl w-full rounded overflow-hidden
+}
+
+#iframeContainer {
+  @apply p-4 border rounded border-slate-300 dark:border-slate-700 flex flex-col gap-4
+}
+
+#fullscreen { @apply text-orange-300 border p-3 px-5 rounded hover:bg-orange-50 dark:hover:bg-orange-900 hover:shadow w-full }
+a {
+  @apply text-orange-300 
+}
+
+#wide {
+  
+  @apply w-full 
+}
