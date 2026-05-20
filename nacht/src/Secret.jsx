@@ -3,8 +3,7 @@ export default function Secret() {
         <section id="wide">
             <h1>Play Nacht Der Untoten Online</h1>
             <hr/>
-        <div id="iframeContainer"><iframe id="iframe" src="https://nzp.gay/" allow="fullscreen" 
-        allowfullscreen></iframe>
+        <div id="iframeContainer"><iframe id="iframe" src="https://nzp.gay/"></iframe>
         <button id="fullscreen" onClick={() => {
   const iframe = document.getElementById("iframe");
     if (iframe.requestFullscreen) {
